@@ -1,0 +1,15 @@
+parser: babel-eslint
+parserOptions:
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+
+extends: airbnb-base
+
+env:
+  es6: true
+  jest: true
+
+rules:
+  no-bitwise: off
+  no-plusplus: off

@@ -5,13 +5,13 @@ A small utility to find the highest power of two below a given value.
 ## Installation
 
 ```shell
-npm install highestPowerTwo --save
+npm install highest-power-two --save
 ```
 
 ## Usage
 
 ```js
-var highestPowerTwo = require('highestPowerTwo');
+var highestPowerTwo = require('highest-power-two').default;
 var result = highestPowerTwo(51);
 console.log('result', result); // => "result 32"
 ```
@@ -23,6 +23,10 @@ npm test
 ```
 
 ## Changelog
+
+### v1.0.2
+
+- Fix README instructions
 
 ### v1.0.1
 
